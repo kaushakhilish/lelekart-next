@@ -1,5 +1,5 @@
 
-import { pgTable,serial, varchar, text, integer, boolean, timestamp, pgEnum } from 'drizzle-orm/pg-core';
+import { pgTable,serial, varchar, text, integer, boolean, timestamp, pgEnum,primaryKey } from 'drizzle-orm/pg-core';
 import { relations, sql } from 'drizzle-orm';
 
 
@@ -108,7 +108,6 @@ export const products = pgTable('products', {
   videoUrl: varchar('video_url', { length: 255 }),
   tags: text('tags').array().notNull().default(sql`ARRAY[]::text[]`), 
   currentColor: varchar('current_color', { length: 255 }),
-  otherColors: integer('other_colors').array().notNull().default(sql`ARRAY[]::integer[]`), 
   condition: varchar('condition', { length: 255 }),
   preOrder: varchar('pre_order', { length: 255 }),
   minOrderQty: integer('min_order_qty'),
@@ -122,9 +121,28 @@ export const products = pgTable('products', {
   updatedAt: timestamp('updated_at').default(sql`CURRENT_TIMESTAMP`).notNull()
 });
 
+export const productColors = pgTable('product_colors', {
+  productId: integer('product_id').references(() => products.id).notNull(),
+  colorProductId: integer('color_product_id').references(() => products.id).notNull(),
+}, (table) => ({
+  pk: primaryKey({ name: 'product_colors_pk', columns: [table.productId, table.colorProductId] })
+}));
+
 // PRODUCT RELATION
 export const productsRelations = relations(products, ({ many }) => ({
   otherColors: many(products)
+}));
+
+
+export const productColorsRelations = relations(productColors, ({ one }) => ({
+  product: one(products, {
+    fields: [productColors.productId],
+    references: [products.id]
+  }),
+  colorProduct: one(products, {
+    fields: [productColors.colorProductId],
+    references: [products.id]
+  })
 }));
 
 
