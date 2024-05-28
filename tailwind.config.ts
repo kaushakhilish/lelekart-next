@@ -32,6 +32,17 @@ const config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      fontFamily:{
+        urbanist: ["var(--font-urbanist)"],
+        acumin:["var(--font-acumin)"],
+        bebas:["var(--font-bebas)"],
+        arimo:["var(--font-arimo)"],
+        anton:["var(--font-anton)"],
+        bungee:["var(--font-bungee)"],
+
+
+
+      }
     },
   },
   plugins: [require("tailwindcss-animate")],
