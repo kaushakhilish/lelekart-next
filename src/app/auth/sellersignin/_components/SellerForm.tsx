@@ -38,13 +38,13 @@ const FormComponent = () => {
     } 
       
   return (
-    <div className = 'w-[100vw] h-[100vh] bg-[#efefef] flex justify-center items-center '>
+    <div className = 'font-urbanist w-[100vw] h-[100vh] bg-[#efefef] flex justify-center items-center '>
     <div className = 'flex md:hidden bg-[#EFEFEF] w-[90%]  rounded-3xl justify-center flex-col gap-4 items-center'>
      
     <div className="flex gap-2 w-[300px] pb-6 justify-start items-center"><div className="w-4 h-4 rounded-full bg-sky-500"></div><div className="text-xl font-semibold">Hi Seller</div></div>
      
-      <div className="text-xl font-bold" >
-      Welcome to Lelekart
+      <div className="text-xl font-bold font-bungee pb-2" >
+      Welcome to <span className="text-sky-500">Lelekart</span>
       </div>
     <div className = 'h-[80%]  gap-2 bg-white shadow-slate-200 flex justify-center items-center flex-col rounded-3xl shadow-2xl w-[300px]'>
         <div className="pb-6 font-semibold text-xl mt-8">Sign In</div>
@@ -76,7 +76,7 @@ const FormComponent = () => {
             </FormItem>
           )}
         />
-        <Button type = "submit" className = "rounded-3xl w-full">Login</Button>
+        <Button type = "submit" className = "rounded-3xl w-full bg-sky-500 hover:bg-sky-600 duration-300">Login</Button>
       </form>
     </Form>
     <div className = "flex justify-center items-center pt-6 pb-2 gap-2">
@@ -88,14 +88,14 @@ const FormComponent = () => {
         <SigninButton type="google" />
         <SigninButton type="github" />
     </div>
-    <div className="text-xs mb-6" >Don&apos;t have an Account? <Link href={'/register'} className="font-semibold" >Register now</Link></div>
+    <div className="text-xs mb-6" >Don&apos;t have an Account? <Link href={'/auth/sellerregister'} className="font-semibold" >Register now</Link></div>
     </div>
     </div>
     <div className = 'hidden md:flex bg-[#F9F9F9] shadow-sm shadow-slate-100 w-[1000px] h-[80%] rounded-3xl md:justify-center md:items-center'>
     <div className = 'h-[70%] flex flex-col w-[55%]'>
-        <div className="flex gap-2 justify-start items-center"><div className="w-4 h-4 rounded-full bg-sky-500"></div><div className="text-xl font-semibold">Hi Seller</div></div>
+        <div className="flex gap-2 justify-start items-center"><div className="w-4 h-4 rounded-full  bg-sky-500"></div><div className="text-xl font-semibold">Hi Seller</div></div>
         <div className="flex justify-center items-center  overflow-hidden "><Image  src={'/groceries.png'} alt="" width={500} height={500}  /></div>
-        <div className="font-bold text-2xl pr-10 justify-center items-center w-full flex">Welcome to Lelekart</div>
+        <div className="font-bold text-2xl pr-10 justify-center items-center w-full font-bungee gap-2 flex">Welcome to <span className="text-sky-500">Lelekart</span></div>
 
     </div>
     <div className = 'h-[80%] gap-2 bg-white shadow-slate-200 flex justify-center items-center flex-col rounded-3xl shadow-2xl w-[30%]'>
@@ -128,7 +128,7 @@ const FormComponent = () => {
             </FormItem>
           )}
         />
-        <Button type = "submit" className = "rounded-3xl w-full">Login</Button>
+        <Button type = "submit" className = "rounded-3xl w-full bg-sky-500 hover:bg-sky-600 duration-300">Login</Button>
       </form>
     </Form>
     <div className = "flex justify-center items-center pt-6 pb-2 gap-2">
