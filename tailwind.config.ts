@@ -39,6 +39,11 @@ const config = {
         arimo:["var(--font-arimo)"],
         anton:["var(--font-anton)"],
         bungee:["var(--font-bungee)"],
+        lilita:["var(--font-lilita)"],
+        outfit:["var(--font-outfit)"],
+        oxygen:["var(--font-oxygen)"],
+        pacifico:["var(--font-pacifico)"],
+        reddit:["var(--font-reddit)"],
 
 
 

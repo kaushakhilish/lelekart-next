@@ -66,6 +66,53 @@ const bungee = localfont({
   variable: "--font-bungee",
 });
 
+const lilita = localfont({
+  src: [
+    {
+      path: "../fonts/Lilita_One/Lilita.ttf",
+    },
+  ],
+  variable: "--font-lilita",
+});
+
+const outfit = localfont({
+  src: [
+    {
+      path: "../fonts/Outfit/Outfit.ttf",
+    },
+  ],
+  variable: "--font-outfit",
+});
+
+const oxygen = localfont({
+  src: [
+    {
+      path: "../fonts/Oxygen/Oxygen.ttf",
+    },
+  ],
+  variable: "--font-oxygen",
+});
+
+const pacifico = localfont({
+  src: [
+    {
+      path: "../fonts/Pacifico/Pacifico.ttf",
+    },
+  ],
+  variable: "--font-pacifico",
+});
+
+const reddit = localfont({
+  src: [
+    {
+      path: "../fonts/Reddit_Sans/Reddit.ttf",
+    },
+  ],
+  variable: "--font-reddit",
+});
+
+
+
 
 
 
@@ -78,7 +125,7 @@ export default async function RootLayout({
   const session = await getServerSession();
   return (
     <html lang="en">
-      <body className={`${inter.className} ${urbanist.variable} ${acumin.variable} ${bebas.variable} ${arimo.variable} ${anton.variable} ${bungee.variable} `}>
+      <body className={`${inter.className} ${urbanist.variable} ${acumin.variable} ${bebas.variable} ${arimo.variable} ${anton.variable} ${bungee.variable} ${lilita.variable}  ${outfit.variable} ${oxygen.variable} ${pacifico.variable} ${reddit.variable} `}>
         <SessionProvider session={session}>
         {children}
         </SessionProvider>
