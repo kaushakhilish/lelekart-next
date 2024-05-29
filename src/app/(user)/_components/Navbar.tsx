@@ -14,9 +14,9 @@ const Navbar = () => {
   return (
     <div className="w-[100vw] min-h-[80px] flex justify-between items-center font-reddit" >
        <Navigaion/>
-<div className="w-[30%]  flex justify-center items-center text-3xl font-bungee">
+<Link href={'/'} className="w-[30%]  flex justify-center items-center text-3xl font-bungee">
     LELEKART
-</div>
+</Link>
 <div className="w-[30%]  flex items-center justify-end gap-6 pr-6">
     <Search/>
     <ShoppingBasket/>
