@@ -27,9 +27,9 @@ const Footer = () => {
                 </div>
                 <div className="flex flex-col gap-2">
                     <div className="font-bold text-black text-lg" >Help</div>
-                    <Link href={'/payment-policy'}>Payment Policy</Link>
-                    <Link href={'/return-policy'}>Return Policy</Link>
-                    <Link href={'/refund-policy'}>Refund Policy</Link>
+                    <Link href={'/payment-policy'}>Payments</Link>
+                    <Link href={'/return-policy'}>Shipping and return</Link>
+                    <Link href={'/refund-policy'}>Cancellation and refund</Link>
                     
                 </div>
                 <div className="flex flex-col gap-2">
@@ -44,7 +44,7 @@ const Footer = () => {
         <div className="bg-black text-white w-full flex justify-between px-10 text-sm">
             <div className="flex gap-2 items-center py-4" ><Copyright size={18} /> 2024 LeLeKart, Kaushal Ranjeet Pvt. Ltd.</div>
             <div className="flex gap-6 py-4">
-            <Link href={'/payment-policy'}>Payment Policy</Link>
+            <Link href={'/privacy-policy'}>Privacy Policy</Link>
                     <Link href={'/terms-condition'}>Terms & Conditions</Link>
                     <Link href={'/security'}>Security</Link>
             </div>

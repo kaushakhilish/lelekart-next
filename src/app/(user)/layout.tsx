@@ -9,7 +9,7 @@ export default async function RootLayout({
 }>) {
   const session = await getServerSession();
   return (
-    <div className="overflow-x-hidden" >
+    <div className="overflow-x-hidden max-w-[1920px] flex-col flex justify-start items-center" >
         <Navbar/>
         {children}
     </div>

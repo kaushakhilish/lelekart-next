@@ -12,7 +12,7 @@ const Navbar = () => {
     const session = useSession();
     console.log(session)
   return (
-    <div className="w-[100vw] min-h-[80px] flex justify-between items-center font-reddit" >
+    <div className="w-full min-h-[80px] flex justify-between items-center font-reddit" >
        <Navigaion/>
 <Link href={'/'} className="w-[30%]  flex justify-center items-center text-3xl font-bungee">
     LELEKART

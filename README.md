@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a Fullstack Ecommerce website build with NEXTJS
 
-## Getting Started
+KEY TECHNOLOGIES USED TILL NOW -- 
 
-First, run the development server:
+    Frontend -  NEXTJS 14
+                Typescript
+                TailwindCSS
+                ReactHookForm + ZOD(Validation)
+                ChartJS(Statistics)
+                Zustand(Clientside State management)
+                Tanstack Query(Serverside State management)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+    Backend -   NEXTJS ServerActions
+                Neon Postgres (Database)          
+                Drizzle(ORM)
+                NextAuth(Authentication)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+KEY REQUIREMENTS -- 
+    Strong understanding of React fundamentals:
+     Next.js is a React framework, so a solid foundation in React concepts like components, state management, props, and lifecycle methods is essential.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+    Experience with Next.js 14 features:
+     This includes knowledge of server-side rendering (SSR), static site generation (SSG), incremental static regeneration (ISR), and data fetching methods like getStaticProps, getServerSideProps, and getInitialProps.
 
-## Learn More
+    Familiarity with TypeScript:
+     TypeScript adds static typing to JavaScript, improving code maintainability and catching errors early in development. Next.js 14 offers built-in TypeScript support.
 
-To learn more about Next.js, take a look at the following resources:
+    Experience with modern JavaScript features:
+     This includes concepts like arrow functions, destructuring, spread operators, async/await, and promises.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    Familiarity with frontend tooling:
+     This includes experience with build tools like Webpack, bundlers like Parcel, and task runners like Gulp or npm scripts.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+    Knowledge of SEO best practices:
+     Next.js offers features to optimize applications for search engines, and a good understanding of SEO is a plus.
 
-## Deploy on Vercel
+    Experience with API routes:
+     Next.js allows creating API routes to handle server-side logic and data fetching.                   
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
