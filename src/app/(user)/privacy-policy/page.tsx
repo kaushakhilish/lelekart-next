@@ -12,7 +12,7 @@ const page = () => {
   return (
     <div className='flex flex-col w-full px-20 pb-6 font-urbanist gap-6' >
       <div className='font-bold text-3xl pt-14'>Privacy Policy</div>
-      <div className='pb-6 w-[60%] text-gray-400 font-bold' >This document shall be elucidated as a "Privacy Policy" as required by the Indian Information Technology Act, 2000 and the rules promulgated thereunder.
+      <div className='pb-6 w-[60%] text-gray-400 font-bold' >This document shall be elucidated as a &quot;Privacy Policy&quot; as required by the Indian Information Technology Act, 2000 and the rules promulgated thereunder.
 
 This Privacy Policy was last updated on 15th March 2022 (Kaushal and Ranjeet Private Limited) (We, our, or us) is devoted to the trust relationship we have with you — our customers. Since its inception, we are dedicated to creating authentic products by leading with our values. We will match leading-edge technology with your privacy interests as we continue to innovate our products.</div>
       <div className='flex justify-between w-full flex-wrap gap-y-6' >
@@ -21,7 +21,7 @@ This Privacy Policy was last updated on 15th March 2022 (Kaushal and Ranjeet Pri
     <CardTitle>OUR PRIVACY PILLARS</CardTitle>
   </CardHeader>
   <CardContent className='flex flex-col gap-3'>
-    <p><span className='text-black'>1. Transparency</span>: We want you to understand what and how we collect information when you interact with us via our website, mobile website, and application (www.lelekart.com) (hereinafter referred to as the "Platform").</p>
+    <p><span className='text-black'>1. Transparency</span>: We want you to understand what and how we collect information when you interact with us via our website, mobile website, and application (www.lelekart.com) (hereinafter referred to as the &quot;Platform&quot;).</p>
     <p><span className='text-black'>2. Choice</span>: We will present you with options for how our trusted business partners and we may use your information.</p>
     <p><span className='text-black'>3. Data Integrity</span>: In accordance with applicable law, we will take reasonable precautions to protect the information we collect about you through our platform by using secure technologies.</p>
   
@@ -34,7 +34,7 @@ This Privacy Policy was last updated on 15th March 2022 (Kaushal and Ranjeet Pri
     <CardTitle>Cookies</CardTitle>
   </CardHeader>
   <CardContent>
-    <p>A "cookie" is a text file that websites send to a visitor‘s computer or other Internet-connected device to uniquely identify the visitor’s browser. . When you browse through our platform, unique cookies are placed on your browser. The cookie's purpose is to differentiate your browser from all other browsers that visit our sites. We can better serve you if we recognize your browser. For instance, the cookies allow us to hold the selections in your shopping cart when you manoeuvre from the order page on our platform and then return to finish the order; cookies prevent you from starting over with your shopping. We can also track which pages of our platform your browser visited and whether or not you purchased a product. That way, we can track things like the effectiveness of our advertising campaigns. Working with third-party advertising companies, using cookies allow us to provide you with customized banner ads on various websites, applications, customized content on our platform, and customized emails that we believe will be more practical than randomly-generated advertisements and content because they are based on your previous purchases and page visits to our platform.</p>
+    <p>A &quot;cookie&quot; is a text file that websites send to a visitor&apos;s computer or other Internet-connected device to uniquely identify the visitor&apos;s browser. . When you browse through our platform, unique cookies are placed on your browser. The cookie&apos;s purpose is to differentiate your browser from all other browsers that visit our sites. We can better serve you if we recognize your browser. For instance, the cookies allow us to hold the selections in your shopping cart when you manoeuvre from the order page on our platform and then return to finish the order; cookies prevent you from starting over with your shopping. We can also track which pages of our platform your browser visited and whether or not you purchased a product. That way, we can track things like the effectiveness of our advertising campaigns. Working with third-party advertising companies, using cookies allow us to provide you with customized banner ads on various websites, applications, customized content on our platform, and customized emails that we believe will be more practical than randomly-generated advertisements and content because they are based on your previous purchases and page visits to our platform.</p>
   </CardContent>
 </Card>
 
@@ -43,12 +43,12 @@ This Privacy Policy was last updated on 15th March 2022 (Kaushal and Ranjeet Pri
     <CardTitle>Interest-Based Advertising</CardTitle>
   </CardHeader>
   <CardContent>
-    <p>A "cookie" is a text file that websites send to a visitor‘s computer or other Internet-connected device to uniquely identify the visitor’s browser. . When you browse through our platform, unique cookies are placed on your browser. The cookie's purpose is to differentiate your browser from all other browsers that visit our sites. We can better serve you if we recognize your browser. For instance, the cookies allow us to hold the selections in your shopping cart when you manoeuvre from the order page on our platform and then return to finish the order; cookies prevent you from starting over with your shopping. We can also track which pages of our platform your browser visited and whether or not you purchased a product. That way, we can track things like the effectiveness of our advertising campaigns. Working with third-party advertising companies, using cookies allow us to provide you with customized banner ads on various websites, applications, customized content on our platform, and customized emails that we believe will be more practical than randomly-generated advertisements and content because they are based on your previous purchases and page visits to our platform.</p>
+    <p>A &quot;cookie&quot; is a text file that websites send to a visitor‘s computer or other Internet-connected device to uniquely identify the visitor’s browser. . When you browse through our platform, unique cookies are placed on your browser. The cookie&apos;s purpose is to differentiate your browser from all other browsers that visit our sites. We can better serve you if we recognize your browser. For instance, the cookies allow us to hold the selections in your shopping cart when you manoeuvre from the order page on our platform and then return to finish the order; cookies prevent you from starting over with your shopping. We can also track which pages of our platform your browser visited and whether or not you purchased a product. That way, we can track things like the effectiveness of our advertising campaigns. Working with third-party advertising companies, using cookies allow us to provide you with customized banner ads on various websites, applications, customized content on our platform, and customized emails that we believe will be more practical than randomly-generated advertisements and content because they are based on your previous purchases and page visits to our platform.</p>
   </CardContent>
 </Card>
 <Card className='w-[39%]'>
   <CardHeader>
-    <CardTitle>Personally Identifiable Information ("PII")</CardTitle>
+    <CardTitle>Personally Identifiable Information (&quot;PII&quot;)</CardTitle>
   </CardHeader>
   <CardContent>
     <p>Personally identifiable information, or PII, is any information that either directly or indirectly identifies you. Your name, email, gender, date of birth, phone number, shipping address, credit card information, purchase history, and voice from our recorded call sessions are examples of PII that we may collect.</p>
@@ -59,7 +59,7 @@ This Privacy Policy was last updated on 15th March 2022 (Kaushal and Ranjeet Pri
     <CardTitle>Third-Party Advertising Companies</CardTitle>
   </CardHeader>
   <CardContent>
-    <p>Certain companies are allowed to collect information from our platform's browsers in order to serve interest-based ads. These businesses are typically third-party ad servers, ad agencies, technology vendors, or providers of sponsored content. These companies collect data from a specific browser about web viewing behaviours over time and across unrelated websites using cookies and web beacons. They then use that data to predict user preferences and deliver advertisements to that browser that are calculated to target the indicated preferences of that browser.</p>
+    <p>Certain companies are allowed to collect information from our platform&apos;s browsers in order to serve interest-based ads. These businesses are typically third-party ad servers, ad agencies, technology vendors, or providers of sponsored content. These companies collect data from a specific browser about web viewing behaviours over time and across unrelated websites using cookies and web beacons. They then use that data to predict user preferences and deliver advertisements to that browser that are calculated to target the indicated preferences of that browser.</p>
   </CardContent>
 </Card>
 <Card className='w-full'>
@@ -97,7 +97,7 @@ Web beacons are used to suggest content and products that we believe may be of i
   <CardContent>
     <p>When you interact with us via our platform, call centres, associated entities, service providers, applications, our website, or mobile website, we collect information from you. We may also obtain information about you from third parties, such as social media platforms or our trusted business partners, who gather information from you on our behalf in order to assist us in operating our platform and providing services of interest to you. We may obtain your PII from third parties who choose to share it with us. Please also consider our dependable business partners.</p>
 
-    <p>Third-party advertising companies are also allowed to collect your browsing information in order to provide ads tailored to your interests on our behalf. For further information on interest-based ads and your options regarding your data, see the "Interest-Based Advertising Section" below.</p>
+    <p>Third-party advertising companies are also allowed to collect your browsing information in order to provide ads tailored to your interests on our behalf. For further information on interest-based ads and your options regarding your data, see the &quot;Interest-Based Advertising Section&quot; below.</p>
 
     <p>When you interact with us through our platform, we may collect information in a variety of ways. It may be gathered in obvious, active ways, such as when you make a purchase when you provide your details, such as name and address or other information when using the customer service chat feature, when entering a contest or sweepstakes, or when uploading a photo or product review to our platform. It may also be collected in a passive manner or automatically when you visit and navigate our platform via cookies and web beacons, which capture your browsing information and allow us and third-party advertising companies to better customize content and advertising to you.</p>
 
@@ -152,7 +152,7 @@ Web beacons are used to suggest content and products that we believe may be of i
     <CardTitle>Job Applicants</CardTitle>
   </CardHeader>
   <CardContent>
-    <p>If you are considering employment opportunities in our company, we may collect additional information as specified in our application forms or at the time of the recruitment and selection process, which includes interviews. This may include details about your employment history, working eligibility rights, suitability for the role you're applying for, and referee info.</p>
+    <p>If you are considering employment opportunities in our company, we may collect additional information as specified in our application forms or at the time of the recruitment and selection process, which includes interviews. This may include details about your employment history, working eligibility rights, suitability for the role you&apos;re applying for, and referee info.</p>
   </CardContent>
 </Card>
 <div className='font-bold text-2xl w-full pt-14'>CHOICES REGARDING YOUR INFORMATION</div>
@@ -160,11 +160,11 @@ Web beacons are used to suggest content and products that we believe may be of i
   <p>Your PII</p>
   <p>You will be given the right to change or correct your information that you provide us in order to fulfill an order or sign up for an online offer or contest, along with the option not to receive marketing material from us when you provide us with PII. You have several options for controlling how we use any PII you provide in connection with promotional communications.</p>
   
-  <p>You can access, update, or correct your choices and settings when you create an account or click "Sign In" from any page on our platform.</p>
+  <p>You can access, update, or correct your choices and settings when you create an account or click &quot;Sign In&quot; from any page on our platform.</p>
   
   <p>If your personal information, such as your address or phone number, changes, please contact us at <a href="mailto:kumaracheles@gmail.com">kumaracheles@gmail.com</a> if you wish to do so.</p>
   
-  <p>If you get email marketing communications from us on behalf of one of our brands and wish to opt-out of receiving such communications in the future from that brand, click on the "Unsubscribe" link at the end of the promotional email.</p>
+  <p>If you get email marketing communications from us on behalf of one of our brands and wish to opt-out of receiving such communications in the future from that brand, click on the &quot;Unsubscribe&quot; link at the end of the promotional email.</p>
   
   <p>Unless a local law exception applies, we will provide you with a copy of any PII that we hold about you upon receiving a written request. Please contact us at <a href="mailto:kumaracheles@gmail.com">kumaracheles@gmail.com</a> if you wish to do so. If you are unable to correct your PII through your account or are facing any issue managing your communication preferences, feel free to contact us at <a href="mailto:kumaracheles@gmail.com">kumaracheles@gmail.com</a>, and we will take reasonable steps to correct that information, unless a local law exemption applies.</p>
   
@@ -177,7 +177,7 @@ Web beacons are used to suggest content and products that we believe may be of i
 </div>
 <div className='font-bold text-xl w-full pt-6'>INTEREST-BASED ADVERTISING</div>
 <div className='pb-6 w-full text-gray-400 font-bold'>
-  <p>Although our systems do not recognize browser "Do Not Track" signals, several of the third-party advertising companies that use cookies on our platform to provide interest-based advertising allow you to opt-out of those practices. If you want to learn more about interest-based advertising and see what options you have regarding how companies use your information, please visit <a href="http://aboutads.info/choices/">http://aboutads.info/choices/</a> or <a href="http://www.networkadvertising.org/choices/">http://www.networkadvertising.org/choices/</a>. Neither do we control nor operate these websites, nor are we responsible for the opt-out options available on them. The only way to completely avoid online tracking is to configure your browser to turn down cookies or to notify you whenever a cookie is set. Please keep in mind that even if you opt out of interest-based advertising on or through <a href="http://www.networkadvertising.org">http://www.networkadvertising.org</a> or other sites or services, you may still be receiving marketing material from us because interest-based advertising is only one type of advertising.</p>
+  <p>Although our systems do not recognize browser &quot;Do Not Track&quot; signals, several of the third-party advertising companies that use cookies on our platform to provide interest-based advertising allow you to opt-out of those practices. If you want to learn more about interest-based advertising and see what options you have regarding how companies use your information, please visit <a href="http://aboutads.info/choices/">http://aboutads.info/choices/</a> or <a href="http://www.networkadvertising.org/choices/">http://www.networkadvertising.org/choices/</a>. Neither do we control nor operate these websites, nor are we responsible for the opt-out options available on them. The only way to completely avoid online tracking is to configure your browser to turn down cookies or to notify you whenever a cookie is set. Please keep in mind that even if you opt out of interest-based advertising on or through <a href="http://www.networkadvertising.org">http://www.networkadvertising.org</a> or other sites or services, you may still be receiving marketing material from us because interest-based advertising is only one type of advertising.</p>
 </div>
 
 <div className='font-bold text-xl w-full pt-6'>CONTROLLING COOKIES</div>
@@ -196,7 +196,7 @@ Web beacons are used to suggest content and products that we believe may be of i
 </div>
 <div className='font-bold text-xl w-full pt-6'>CHILDREN</div>
 <div className='pb-6 w-full text-gray-400 font-bold'>
-  <p>Our platform is only available to people who can form legally binding contracts under the Indian Contract Act of 1872. Persons who are deemed 'incompetent to contract' under the Indian Contract Act of 1872, including minors, are ineligible to use our platform. A minor (any person under the age of 18 is defined as a minor) should not use, access, or transact on our platform. If a minor wishes to use, transact, or provide PII on our platform, such PII must be provided by a legal guardian or parents.</p>
+  <p>Our platform is only available to people who can form legally binding contracts under the Indian Contract Act of 1872. Persons who are deemed &apos;incompetent to contract&apos; under the Indian Contract Act of 1872, including minors, are ineligible to use our platform. A minor (any person under the age of 18 is defined as a minor) should not use, access, or transact on our platform. If a minor wishes to use, transact, or provide PII on our platform, such PII must be provided by a legal guardian or parents.</p>
   
   <p>Furthermore, we do not intentionally collect PII from children under the age of 18. If we find out that we have received PII inadvertently from a child who is below the age of 18 years, we will instantly delete that information from our system.</p>
 </div>
@@ -207,12 +207,12 @@ Web beacons are used to suggest content and products that we believe may be of i
   
   <p>We will not under any situation sell, trade, or otherwise transfer any of your PII to any of our third-party without first obtaining your permission. Outside parties do not include Lelekart India-owned businesses or our trusted business partners who assist us in operating and providing services on our platform.</p>
   
-  <p>Of course, we reserve the right to make a disclosure if we reasonably believe it is required by law, to enforce our platform policies, or to protect your or others' rights, property, or safety.</p>
+  <p>Of course, we reserve the right to make a disclosure if we reasonably believe it is required by law, to enforce our platform policies, or to protect your or others&apos; rights, property, or safety.</p>
 </div>
 
 <div className='font-bold text-xl w-full pt-6'>SAFEGUARDING YOUR PII</div>
 <div className='pb-6 w-full text-gray-400 font-bold'>
-  <p>Your Personally Identifiable Information (PII) and any other information that we collected is processed in strict compliance with the Indian Information Technology Act, 2000, and the rules promulgated thereunder. While processing, storing or handling any Personal detail or Sensitive Personal Data or Information (as defined under applicable law) that we collect from you, we maintain and enforce 'Reasonable Security Practices and Procedures' as specified in the Indian Information Technology Act, 2000 and Sensitive Personal Data or Information Rules, 2011, and the Information Technology Reasonable Security Practices and Procedures.</p>
+  <p>Your Personally Identifiable Information (PII) and any other information that we collected is processed in strict compliance with the Indian Information Technology Act, 2000, and the rules promulgated thereunder. While processing, storing or handling any Personal detail or Sensitive Personal Data or Information (as defined under applicable law) that we collect from you, we maintain and enforce &apos;Reasonable Security Practices and Procedures&apos; as specified in the Indian Information Technology Act, 2000 and Sensitive Personal Data or Information Rules, 2011, and the Information Technology Reasonable Security Practices and Procedures.</p>
   
   <p>However, by providing us with information, you acknowledge and agree that data transmissions are never entirely private or secure.</p>
   
