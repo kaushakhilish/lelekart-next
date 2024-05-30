@@ -1,47 +1,47 @@
 export const mainCategories: { name: string, link: string, subCategory: { name: string, link: string }[] }[] = [
     {
         name: "Men",
-        link: "",
+        link: "/subcategory/Men",
         subCategory: [
-            { name: "Men-Formal", link: "" },
-            { name: "Men-Ethnic", link: "" },
-            { name: "Men-Top", link: "" },
-            { name: "Men-Casual", link: "" },
-            { name: "Shirt and T-Shirts", link: "" },
-            { name: "Men-Jeans", link: "" },
-            { name: "Men-Miscellaneous", link: "" },
-            { name: "Men-Bottom", link: "" }
+            { name: "Men-Formal", link: "/subcategory/Men-Formal" },
+            { name: "Men-Ethnic", link: "/subcategory/Men-Ethnic" },
+            { name: "Men-Top", link: "/subcategory/Men-Top" },
+            { name: "Men-Casual", link: "/subcategory/Men-Casual" },
+            { name: "Shirt and T-Shirts", link: "/subcategory/Shirt and T-Shirts" },
+            { name: "Men-Jeans", link: "/subcategory/Men-Jeans" },
+            { name: "Men-Miscellaneous", link: "/subcategory/Men-Miscellaneous" },
+            { name: "Men-Bottom", link: "/subcategory/Men-Bottom" }
         ]
     },
     {
         name: "Women",
-        link: "",
+        link: "/subcategory/Women",
         subCategory: [
-            { name: "Sarees", link: "" },
-            { name: "Women-Top", link: "" },
-            { name: "Women-Bottom", link: "" },
-            { name: "Women-Casuals", link: "" },
-            { name: "Women-Formal", link: "" },
-            { name: "Women-Ethnic", link: "" },
-            { name: "Women-Jeans", link: "" },
-            { name: "Suits", link: "" },
-            { name: "Lingerie", link: "" },
-            { name: "Women-Miscellaneous", link: "" }
+            { name: "Sarees", link: "/subcategory/Sarees" },
+            { name: "Women-Top", link: "/subcategory/Women-Top" },
+            { name: "Women-Bottom", link: "/subcategory/Women-Bottom" },
+            { name: "Women-Casuals", link: "/subcategory/Women-Casuals" },
+            { name: "Women-Formal", link: "/subcategory/Women-Formal" },
+            { name: "Women-Ethnic", link: "/subcategory/Women-Ethnic" },
+            { name: "Women-Jeans", link: "/subcategory/Women-Jeans" },
+            { name: "Suits", link: "/subcategory/Suits" },
+            { name: "Lingerie", link: "/subcategory/Lingerie" },
+            { name: "Women-Miscellaneous", link: "/subcategory/Women-Miscellaneous" }
         ]
     },
     {
         name: "Kids",
-        link: "",
+        link: "/subcategory/Kids",
         subCategory: [
-            { name: "Boys & Girls Jeans", link: "" },
-            { name: "Boys & Girls T-Shirts", link: "" },
-            { name: "Boys & Girls Shirts", link: "" },
-            { name: "Boys & Girls Shorts", link: "" },
-            { name: "Winter Wear", link: "" },
-            { name: "Summer Wear", link: "" },
-            { name: "Inner Wear", link: "" },
-            { name: "Boys & Girls Footwear", link: "" },
-            { name: "Kid-Miscellaneous", link: "" }
+            { name: "Boys & Girls Jeans", link: "/subcategory/Boys & Girls Jeans" },
+            { name: "Boys & Girls T-Shirts", link: "/subcategory/Boys & Girls T-Shirts" },
+            { name: "Boys & Girls Shirts", link: "/subcategory/Boys & Girls Shirts" },
+            { name: "Boys & Girls Shorts", link: "/subcategory/Boys & Girls Shorts" },
+            { name: "Winter Wear", link: "/subcategory/Winter Wear" },
+            { name: "Summer Wear", link: "/subcategory/Summer Wear" },
+            { name: "Inner Wear", link: "/subcategory/Inner Wear" },
+            { name: "Boys & Girls Footwear", link: "/subcategory/Boys & Girls Footwear" },
+            { name: "Kid-Miscellaneous", link: "/subcategory/Kid-Miscellaneous" }
         ]
     }
 ]
@@ -49,46 +49,46 @@ export const mainCategories: { name: string, link: string, subCategory: { name: 
 export const otherCategories: { name: string, link: string, subCategory: { name: string, link: string }[] }[] = [
     {
         name: "Cosmetics",
-        link: "",
+        link: "/subcategory/Cosmetics",
         subCategory: [
-            { name: "Haircare", link: "" },
-            { name: "Luxury & Beauty", link: "" },
-            { name: "Skincare", link: "" },
-            { name: "Makeup", link: "" },
-            { name: "Professional Beauty", link: "" },
-            { name: "Fragrance", link: "" },
-            { name: "Baby Care", link: "" },
-            { name: "Beauty Products", link: "" },
-            { name: "Hair Care", link: "" },
-            { name: "Skin Care", link: "" },
-            { name: "Makeup", link: "" }
+            { name: "Haircare", link: "/subcategory/Haircare" },
+            { name: "Luxury & Beauty", link: "/subcategory/Luxury & Beauty" },
+            { name: "Skincare", link: "/subcategory/Skincare" },
+            { name: "Makeup", link: "/subcategory/Makeup" },
+            { name: "Professional Beauty", link: "/subcategory/Professional Beauty" },
+            { name: "Fragrance", link: "/subcategory/Fragrance" },
+            { name: "Baby Care", link: "/subcategory/Baby Care" },
+            { name: "Beauty Products", link: "/subcategory/Beauty Products" },
+            { name: "Hair Care", link: "/subcategory/Hair Care" },
+            { name: "Skin Care", link: "/subcategory/Skin Care" },
+            { name: "Makeup", link: "/subcategory/Makeup" }
         ]
     },
     {
         name: "Watches and Jewelry",
-        link: "",
+        link: "/subcategory/Watches and Jewelry",
         subCategory: [
-            { name: "Men's Watches", link: "" },
-            { name: "Women's Watches", link: "" },
-            { name: "Jewelry", link: "" },
-            { name: "Men's Glasses", link: "" },
-            { name: "Women's Glasses", link: "" },
-            { name: "Wallets & Belts", link: "" },
-            { name: "Perfumes", link: "" },
-            { name: "Miscellaneous", link: "" }
+            { name: "Men's Watches", link: "/subcategory/Men's Watches" },
+            { name: "Women's Watches", link: "/subcategory/Women's Watches" },
+            { name: "Jewelry", link: "/subcategory/Jewelry" },
+            { name: "Men's Glasses", link: "/subcategory/Men's Glasses" },
+            { name: "Women's Glasses", link: "/subcategory/Women's Glasses" },
+            { name: "Wallets & Belts", link: "/subcategory/Wallets & Belts" },
+            { name: "Perfumes", link: "/subcategory/Perfumes" },
+            { name: "Miscellaneous", link: "/subcategory/Miscellaneous" }
         ]
     },
     {
         name: "Bags and Suitcases",
-        link: "",
+        link: "/subcategory/Bags and Suitcases",
         subCategory: [
-            { name: "Handbag", link: "" },
-            { name: "Travel bag", link: "" },
-            { name: "Backpack", link: "" },
-            { name: "Laptop bag", link: "" },
-            { name: "Briefcases", link: "" },
-            { name: "Trolleys", link: "" },
-            { name: "Miscellaneous", link: "" }
+            { name: "Handbag", link: "/subcategory/Handbag" },
+            { name: "Travel bag", link: "/subcategory/Travel bag" },
+            { name: "Backpack", link: "/subcategory/Backpack" },
+            { name: "Laptop bag", link: "/subcategory/Laptop bag" },
+            { name: "Briefcases", link: "/subcategory/Briefcases" },
+            { name: "Trolleys", link: "/subcategory/Trolleys" },
+            { name: "Miscellaneous", link: "/subcategory/Miscellaneous" }
         ]
     }
 ]

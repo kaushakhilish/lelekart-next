@@ -6,6 +6,7 @@ import { Copyright } from "lucide-react"
 const Footer = () => {
   return (
     <div className="flex flex-col  w-full gap-10 font-outfit">
+        <div className="w-full h-[50px]"></div>
         <div className="flex justify-between items-center px-10">
             <div className="flex flex-col justify-start items-start gap-4" >
                 <div className="text-3xl font-bungee" >LELEKART</div>
