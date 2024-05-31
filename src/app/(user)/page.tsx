@@ -10,7 +10,7 @@ export default async function Home() {
    <div className="flex flex-col justify-start items-center w-full">
     <CarouselComponent/>
     <Body/>
-    <Footer/>
+    
    </div> 
   );
 }

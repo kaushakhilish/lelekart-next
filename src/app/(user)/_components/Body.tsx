@@ -11,8 +11,10 @@ const Body = () => {
         <div className=' text-gray-400 font-semibold text-center w-[30%] pb-6'>
             Our best products where classic and contemporary style converge in perfect harmony
         </div>
-        <div className='w-full flex justify-end px-2 pb-2' ><Button className='font-bold' >And More </Button></div>
-        <div className='flex justify-between items-center w-full flex-wrap pb-6'>
+        <div className='w-full flex justify-end px-2 pb-2' >
+          <Button className='font-bold' >View More </Button>
+          </div>
+        <div className='flex justify-center items-center flex-wrap pb-6 '>
             <ProductCard img='/men.png' name='Tshirt' description='Black Stylish Pure cotton Tshirt' price={599} />
             <ProductCard img='/women.png' name='Frock' description='long frock for girls' price={799} />
             <ProductCard img='/kid.png' name='Full Dress' description='Full Winter Dress for babies' price={899} />

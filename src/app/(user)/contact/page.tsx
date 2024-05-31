@@ -5,7 +5,7 @@ import ContactForm from './_components/ContactForm'
 
 const page = () => {
   return (
-    <div className='flex font-urbanist w-full justify-between items-center px-24 mt-10'>
+    <div className='flex font-urbanist w-full justify-between items-center px-24 my-10'>
       <div className='w-[50%] flex justify-start flex-col items-start border-r-2 border-r-gray-400' >
         <div className=' font-bold text-5xl pt-10'>Contact Us</div>
         <div className='text-slate-500 pt-6 pb-14 text-lg font-semibold w-[70%]'>We&apos;re here to help! Whether you have a question about our products, need assistance with your order, or just want to share your feedback, we&apos;re all ears. At LeleKart, your satisfaction is our top priority</div>

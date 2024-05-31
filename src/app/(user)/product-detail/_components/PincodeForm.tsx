@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button"
 import {
   Form,
   FormControl,
+  FormDescription,
   FormField,
   FormItem,
   FormMessage,
@@ -22,9 +23,7 @@ const FormSchema = z.object({
 export default function FooterForm() {
   const form = useForm<z.infer<typeof FormSchema>>({
     resolver: zodResolver(FormSchema),
-    defaultValues: {
-      pincode: 733101,
-    },
+   
   })
 
   function onSubmit(data: z.infer<typeof FormSchema>) {
@@ -42,6 +41,9 @@ export default function FooterForm() {
               <FormControl>
                 <Input placeholder="Enter Your Pincode" {...field} className="border-[1px] border-gray-400 rounded-full px-14 text-base" />
               </FormControl>
+              <FormDescription>
+                Enter Your Pincode To Check Availability
+              </FormDescription>
               <FormMessage className="pl-2" />
             </FormItem>
           )}
