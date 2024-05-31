@@ -12,7 +12,7 @@ const page = () => {
             <div className='text-4xl font-bold'>Reviews</div>
             <div><Select/></div>
         </div>
-        <div className='flex justify-between gap-24 items-center w-full'>
+        <div className='flex justify-start gap-24 items-center w-full'>
             <div className='flex flex-col gap-3'>
                 <div className='text-xl font-bold' >Total Reviews</div>
                 <div className='flex justify-start items-center gap-2'>
@@ -62,6 +62,7 @@ const page = () => {
                     <div className='text-sm'>100</div>
                 </div>
             </div>
+            
         </div>
         <div className='w-full py-14 flex justify-start items-center flex-wrap gap-8'>
             <UserReviewCard/>
