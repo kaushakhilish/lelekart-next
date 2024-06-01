@@ -38,10 +38,10 @@ const Page = () => {
       <div className='w-full text-lg py-10 flex items-center gap-2 justify-center'>
          {count===0 ?  <CircleDot/>  : <CircleCheck/>}
          <div> Select Address </div>
-          <div className="w-32 border-t-2"></div>
+          <div className={`w-32 border-t-2 ${count!==0 && 'border-t-black'}`}></div>
           {count===0 ?  <Circle/> : count===1 ?  <CircleDot/>: <CircleCheck/>}
           <div>Confirm Item</div>
-          <div className="w-32 border-t-2"></div>
+          <div className={`w-32 border-t-2 ${count===2 && 'border-t-black'}`}></div>
           {count===2 ?  <CircleDot/>: <Circle/>}
           <div>Payment</div>
       </div>
