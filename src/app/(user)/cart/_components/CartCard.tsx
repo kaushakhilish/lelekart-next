@@ -7,11 +7,12 @@ import {
     SelectTrigger,
     SelectValue,
   } from "@/components/ui/select"
+import Link from "next/link"
   
 
 const CartCard = () => {
   return (
-    <div className="w-full p-1 flex justify-between items-center">
+    <Link href={'/product-detail/Tshirt'} className="w-full p-3 flex justify-between items-center hover:bg-gray-100 rounded-2xl pr-4">
         <div className="flex" >
         <div className="relative rounded-xl w-[100px] h-[100px] bg-[#E8E7E5]">
         <Image alt="" src={'/men.png'} objectFit="cover" fill />
@@ -51,7 +52,7 @@ const CartCard = () => {
             <div className=" flex gap-1 justify-center items-center font-bold" ><IndianRupee size={14}/>799</div>
 
         </div>
-    </div>
+    </Link>
   )
 }
 

@@ -52,7 +52,7 @@ const page = () => {
                 <div>Total</div>
                 <div><div className=" flex gap-1 justify-center items-center font-bold " ><IndianRupee size={14}/>929.5</div></div>
             </div>
-            <Button className='w-[90%] my-2 text-base font-semibold py-0' >Proceed to checkout</Button>
+            <Link className='w-full flex justify-center items-center' href={'/checkout'} ><Button className='w-[90%] my-2 text-base font-semibold py-0' >Proceed to checkout</Button></Link>
            <Link className='w-full flex justify-center items-center' href={'/'} > <Button className='w-[90%] py-0  my-2 text-base font-semibold' variant={'outline'} >Continue shopping</Button></Link>
 
 

@@ -5,6 +5,7 @@ import ProductTab from "../_components/ProductTab"
 import PincodeForm from "../_components/PincodeForm"
 import ReviewCard from "../_components/ReviewCard"
 import CarouselBestOf from "../../_components/CarouselBestOf"
+import Link from "next/link"
 
 
 const page = () => {
@@ -71,7 +72,7 @@ const page = () => {
                     </div>
                     <div className="flex gap-2 py-4">
                         <Button variant="default" className="rounded-full px-14 font-bold flex items-center gap-2" ><ShoppingBasket size={20}/>ADD TO CART</Button>
-                        <Button variant="outline" className="rounded-full px-8 font-bold border-2 border-black flex gap-2 items-center"  ><CreditCard size={20}/>BUY NOW</Button>
+                        <Link href={'/checkout'} ><Button variant="outline" className="rounded-full px-8 font-bold border-2 border-black flex gap-2 items-center"  ><CreditCard size={20}/>BUY NOW</Button></Link>
                     </div>
                        <div className="pt-10 font-semibold text-2xl border-b-2 w-[80%] border-b-gray-700">Details</div>
                        <div className="py-4 pl-2">

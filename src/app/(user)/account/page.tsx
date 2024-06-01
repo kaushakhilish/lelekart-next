@@ -35,9 +35,9 @@ import {
 
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
-import { redirect } from 'next/navigation'
 import Link from 'next/link'
 import AddressCard from "./_components/AddressCard"
+import AddAddressForm from "./_components/AddAddressForm"
 
 const page = () => {
   return (
@@ -56,14 +56,14 @@ const page = () => {
           </div>
         <div></div>
       </div>
-      <div className='w-[55%] py-10  flex flex-col justify-start items-start'>
+      <div className='w-[65%] py-10  flex flex-col justify-start items-start'>
         <div className='text-2xl font-semibold' >Actions</div>
         <div className='w-[100%] flex justify-start items-start pt-6 gap-6 flex-wrap'>
           <Link href={'/account/orders'} className='border-2  border-black rounded-2xl text-lg px-6 py-1 flex items-center gap-2 font-semibold hover:bg-purple-300 cursor-pointer' ><Package size={21}/> Your Orders</Link>
           
            <Dialog>
            <DialogTrigger asChild>
-           <div className='border-2  border-black rounded-2xl text-lg px-6 py-1 flex items-center gap-2 font-semibold hover:bg-yellow-300 cursor-pointer' ><UserRound size={21} /> Edit Profile</div>
+           <div className='border-2  border-black rounded-2xl text-lg px-6 py-1 flex items-center gap-2 font-semibold hover:bg-yellow-200 cursor-pointer' ><UserRound size={21} /> Edit Profile</div>
            </DialogTrigger>
            <DialogContent className="sm:max-w-[425px]">
              <DialogHeader>
@@ -161,24 +161,22 @@ const page = () => {
         </DialogFooter>
       </DialogContent>
     </Dialog>
-
-
-        
         </div>
-    <div className=' mb-4 flex w-full items-end justify-between '><div className='text-2xl font-semibold mt-14' >Addresses</div><Dialog>
-  <DialogTrigger><Button variant={'default'} size={'sm'} className='rounded-xl text-xs font-bold py-0'  >ADD</Button></DialogTrigger>
-  <DialogContent>
-    <DialogHeader>
-      <DialogTitle>Fill the form to add Address</DialogTitle>
-      <DialogDescription>
-        This action cannot be undone. This will permanently delete your account
-        and remove your data from our servers.
-      </DialogDescription>
-    </DialogHeader>
-  </DialogContent>
-</Dialog>
+    <div className=' mb-4 flex w-full items-end justify-between '>
+      <div className='text-2xl font-semibold mt-14' >Addresses</div>
+            <Dialog>
+            <DialogTrigger><Button variant={'default'} size={'sm'} className='rounded-xl text-xs font-bold py-0'  >ADD</Button></DialogTrigger>
+            <DialogContent className="sm:max-w-[800px] min-h-[500px]" >
+            <DialogHeader>
+            <DialogTitle>Fill the form to add Address</DialogTitle>
+            <DialogDescription >
+            <AddAddressForm/>
+            </DialogDescription>
+            </DialogHeader>
+            </DialogContent>
+            </Dialog>
 </div>
-      <div className='w-[95%] flex justify-start items-start gap-6' >
+      <div className='w-[95%] flex justify-start flex-wrap items-start gap-6' >
         <AddressCard/>
         <AddressCard/>
         
