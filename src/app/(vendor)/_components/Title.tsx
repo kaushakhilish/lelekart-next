@@ -10,6 +10,7 @@ const Title = () => {
    {pathname==='/vendor-products' && "Products"}
    {pathname==='/vendor-orders' && "Orders"}
    {pathname==='/vendor-analytics' && "Analytics"}
+   {pathname==='/vendor-settings' && "Settings"}
 
 
   </div>

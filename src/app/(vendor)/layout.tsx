@@ -2,30 +2,14 @@ import VendorSidebar from "./_components/VendorSidebar";
 import Image from "next/image"
 import Link from "next/link"
 import {
-    Activity,
-  ArrowUpRight,
-  ChevronLeft,
-  ChevronRight,
-  Copy,
-  CreditCard,
-  DollarSign,
-  File,
   Home,
-  IndianRupee,
   LineChart,
-  ListFilter,
-  MoreVertical,
   Package,
   Package2,
   PanelLeft,
   Search,
-  Settings,
-  ShoppingBag,
   ShoppingCart,
-  Truck,
-  Users,
   Users2,
-  Weight,
 } from "lucide-react"
 import {
     DropdownMenu,
@@ -37,13 +21,6 @@ import {
     DropdownMenuTrigger,
   } from "@/components/ui/dropdown-menu"
   import { Input } from "@/components/ui/input"
-  import {
-    Pagination,   
-    PaginationContent,
-    PaginationItem,
-  } from "@/components/ui/pagination"
-  import { Progress } from "@/components/ui/progress"
-  import { Separator } from "@/components/ui/separator"
   import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { Button } from "@/components/ui/button";
 import Title from "./_components/Title";
@@ -142,8 +119,8 @@ export default function VendorLayout({
         <DropdownMenuContent align="end">
           <DropdownMenuLabel>My Account</DropdownMenuLabel>
           <DropdownMenuSeparator />
-          <DropdownMenuItem>Settings</DropdownMenuItem>
-          <DropdownMenuItem>Support</DropdownMenuItem>
+          <DropdownMenuItem><Link href={'/vendor-settings'} >Settings</Link></DropdownMenuItem>
+          
           <DropdownMenuSeparator />
           <DropdownMenuItem>Logout</DropdownMenuItem>
         </DropdownMenuContent>
