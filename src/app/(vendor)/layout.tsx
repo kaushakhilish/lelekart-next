@@ -131,7 +131,7 @@ export default function VendorLayout({
             className="overflow-hidden rounded-full"
           >
             <Image
-              src="/placeholder-user.jpg"
+              src="https://avatars.githubusercontent.com/u/124427334?v=4"
               width={36}
               height={36}
               alt="Avatar"

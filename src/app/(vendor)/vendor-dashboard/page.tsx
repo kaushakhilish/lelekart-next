@@ -3,39 +3,16 @@ import Link from "next/link"
 import {
     Activity,
   ArrowUpRight,
-  ChevronLeft,
-  ChevronRight,
-  Copy,
-  CreditCard,
+
   DollarSign,
   File,
   Home,
   IndianRupee,
-  LineChart,
-  ListFilter,
-  MoreVertical,
-  Package,
-  Package2,
-  PanelLeft,
-  Search,
-  Settings,
   ShoppingBag,
-  ShoppingCart,
-  Truck,
-  Users,
-  Users2,
   Weight,
 } from "lucide-react"
 import BarGraph from "./_components/BarGraph"
 import { Badge } from "@/components/ui/badge"
-import {
-  Breadcrumb,
-  BreadcrumbItem,
-  BreadcrumbLink,
-  BreadcrumbList,
-  BreadcrumbPage,
-  BreadcrumbSeparator,
-} from "@/components/ui/breadcrumb"
 import { Button } from "@/components/ui/button"
 import {
   Card,
@@ -54,12 +31,6 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table"
-import {
-  Tabs,
-  TabsContent,
-  TabsList,
-  TabsTrigger,
-} from "@/components/ui/tabs"
 
 const page = () => {
   return (
