@@ -14,9 +14,7 @@ const Navbar = () => {
     console.log(session)
     
     const user = session.data?.user;
-    if(user===undefined){
-      return
-    }
+    
     
   return ( 
     <div className="w-full min-h-[80px] flex justify-between items-center font-reddit" >
@@ -29,7 +27,7 @@ const Navbar = () => {
    <Link href={'/wishlist'}> <Heart size={20}/></Link>
     <Link href={'/cart'} ><ShoppingBasket size={20}/></Link>
 
-    <div className="text-md font-semibold">{user!==undefined || session.status==="authenticated" ? <UserAvatar img={user.image} name={user.name} />: <Button variant="outline" className="text-md border-2 border-black hover:bg-black hover:text-white font-semibold"><Link  href={'/auth/signin'}>Login</Link></Button>}</div>
+    <div className="text-md font-semibold">{session.status==="authenticated" ? <UserAvatar img="https://avatars.githubusercontent.com/u/124427334?v=4" name="Souvik Sarkar"/>: <Button variant="outline" className="text-md border-2 border-black hover:bg-black hover:text-white font-semibold"><Link  href={'/auth/signin'}>Login</Link></Button>}</div>
     </div>
     </div>
   )
