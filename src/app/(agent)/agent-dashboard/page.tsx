@@ -37,25 +37,25 @@ const page = () => {
       <div className='w-1/2 flex flex-wrap pl-4 justify-start gap-4 items-center'>
         <div className='w-[45%] h-[45%] rounded-2xl border-2 border-gray-400 flex flex-col flex-wrap p-4' >
           <div className='text-xl h-[10%] font-semibold text-gray-400'>Rewards</div>
-          <div className='w-full flex justify-center items-center text-5xl h-[70%] font-semibold'>10</div>
+          <div className='w-full flex justify-center items-center text-5xl text-yellow-500 h-[70%] font-semibold'>10</div>
           <div className=' h-[20%] font-semibold text-gray-400 '>10% increase from last month</div>
 
         </div>
         <div className='w-[45%] h-[45%] rounded-2xl border-2 border-gray-400 flex flex-col flex-wrap p-4' >
           <div className='text-xl h-[10%] font-semibold text-gray-400'>Total Coupon</div>
-          <div className='w-full flex justify-center items-center text-5xl h-[70%] font-semibold'>25</div>
+          <div className='w-full flex justify-center items-center text-5xl h-[70%] text-purple-500 font-semibold'>25</div>
           <div className=' h-[20%] font-semibold text-gray-400 '>2% increase from last month</div>
 
         </div>
         <div className='w-[45%] h-[45%] rounded-2xl border-2 border-gray-400 flex flex-col flex-wrap p-4' >
           <div className='text-xl h-[10%] font-semibold text-gray-400'>Total Earning</div>
-          <div className='w-full flex justify-center items-center text-5xl h-[70%] font-semibold gap-1'><IndianRupee strokeWidth={3} size={30} />500</div>
+          <div className='w-full flex justify-center items-center text-5xl text-sky-500 h-[70%] font-semibold gap-1'><IndianRupee strokeWidth={3} size={30} />500</div>
           <div className=' h-[20%] font-semibold text-gray-400 '>30% increase from last month</div>
 
         </div>
         <div className='w-[45%] h-[45%] rounded-2xl border-2 border-gray-400 flex flex-col flex-wrap p-4' >
           <div className='text-xl h-[10%] font-semibold text-gray-400'>Total Customers</div>
-          <div className='w-full flex justify-center items-center text-5xl h-[70%] font-semibold'>35</div>
+          <div className='w-full flex justify-center items-center text-5xl text-green-400 h-[70%] font-semibold'>35</div>
           <div className=' h-[20%] font-semibold text-gray-400 '>9% increase from last month</div>
 
         </div>
