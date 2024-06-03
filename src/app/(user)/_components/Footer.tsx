@@ -23,7 +23,7 @@ const Footer = () => {
                    <div className="flex flex-col gap-2" >
                    <div className="font-bold text-black text-lg">Make Money</div>
                     <Link href={'/auth/sellersignin'}>Seller Login</Link>
-                    <Link href={'/'}>Agent Login</Link>
+                    <Link href={'/auth/agentsignin'}>Agent Login</Link>
                    </div>
                 </div>
                 <div className="flex flex-col gap-2">

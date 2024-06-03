@@ -1,3 +1,5 @@
+"use client"
+
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
 import { z } from "zod"
@@ -36,13 +38,13 @@ const FormComponent = () => {
     } 
       
   return (
-    <div className = 'w-[100vw] h-[100vh] bg-[#efefef] flex justify-center items-center '>
-    <div className = 'flex md:hidden font-urbanist bg-[#EFEFEF] w-[90%]  rounded-3xl justify-center flex-col gap-4 items-center'>
+    <div className = 'font-urbanist w-[100vw] h-[100vh] bg-[#efefef] flex justify-center items-center '>
+    <div className = 'flex md:hidden bg-[#EFEFEF] w-[90%]  rounded-3xl justify-center flex-col gap-4 items-center'>
      
-    <div className="flex gap-2 w-[300px] pb-6 justify-start items-center"><div className="w-4 h-4 rounded-full bg-purple-500"></div><div className="text-xl font-semibold">Hi User</div></div>
+    <div className="flex gap-2 w-[300px] pb-6 justify-start items-center"><div className="w-4 h-4 rounded-full bg-yellow-500"></div><div className="text-xl font-semibold">Hi Agent</div></div>
      
-      <div className="text-xl font-bold font-bungee pb-4" >
-      Welcome to <span className="text-purple-500">Lelekart</span>
+      <div className="text-xl font-bold font-bungee pb-2" >
+      Welcome to <span className="text-yellow-500">Lelekart</span>
       </div>
     <div className = 'h-[80%]  gap-2 bg-white shadow-slate-200 flex justify-center items-center flex-col rounded-3xl shadow-2xl w-[300px]'>
         <div className="pb-6 font-semibold text-xl mt-8">Sign In</div>
@@ -74,7 +76,7 @@ const FormComponent = () => {
             </FormItem>
           )}
         />
-        <Button type = "submit" className = "rounded-3xl w-full bg-purple-500 hover:bg-purple-700 duration-300">Login</Button>
+        <Button type = "submit" className = "rounded-3xl w-full bg-yellow-500 hover:bg-yellow-600 duration-300">Login</Button>
       </form>
     </Form>
     <div className = "flex justify-center items-center pt-6 pb-2 gap-2">
@@ -86,20 +88,20 @@ const FormComponent = () => {
         <SigninButton type="google" />
         <SigninButton type="github" />
     </div>
-    <div className="text-xs mb-6" >Don&apos;t have an Account? <Link href={'/auth/register'} className="font-semibold" >Register now</Link></div>
+    <div className="text-xs mb-6" >Don&apos;t have an Account? <Link href={'/auth/agentregister'} className="font-semibold" >Register now</Link></div>
     </div>
     </div>
     <div className = 'hidden md:flex bg-[#F9F9F9] shadow-sm shadow-slate-100 w-[1000px] h-[80%] rounded-3xl md:justify-center md:items-center'>
     <div className = 'h-[70%] flex flex-col w-[55%]'>
-        <div className="flex gap-2 justify-start items-center"><div className="w-4 h-4 rounded-full bg-purple-500"></div><div className="text-xl font-semibold font-urbanist">Hi User</div></div>
-        <div className="flex justify-center items-center  overflow-hidden "><Image objectFit="cover "  src={'/user.png'} alt="" width={400} height={400}  /></div>
-        <div className="font-bold text-2xl pr-10 justify-center items-center w-full flex gap-2 font-bungee">Welcome to  <span className="text-purple-500" >Lelekart</span></div>
+        <div className="flex gap-2 justify-start items-center"><div className="w-4 h-4 rounded-full  bg-yellow-500"></div><div className="text-xl font-semibold">Hi Agent</div></div>
+        <div className="flex justify-center items-center  overflow-hidden "><Image  src={'/agent.png'} alt="" width={500} height={500}  /></div>
+        <div className="font-bold text-2xl pr-10 justify-center items-center w-full font-bungee gap-2 flex">Welcome to <span className="text-yellow-500">Lelekart</span></div>
 
     </div>
     <div className = 'h-[80%] gap-2 bg-white shadow-slate-200 flex justify-center items-center flex-col rounded-3xl shadow-2xl w-[30%]'>
-        <div className="pb-6 font-semibold text-xl font-urbanist">Sign In</div>
+        <div className="pb-6 font-semibold text-xl">Sign In</div>
         <Form {...form}>
-      <form onSubmit = {form.handleSubmit(onSubmit)} className = "space-y-5 px-6 w-full font-urbanist">
+      <form onSubmit = {form.handleSubmit(onSubmit)} className = "space-y-5 px-6 w-full">
         <FormField
           control = {form.control}
           name    = "email"
@@ -126,7 +128,7 @@ const FormComponent = () => {
             </FormItem>
           )}
         />
-        <Button type = "submit" className = "rounded-3xl bg-purple-500 hover:bg-purple-700 duration-300 w-full">Login</Button>
+        <Button type = "submit" className = "rounded-3xl w-full bg-yellow-500 hover:bg-yellow-600 duration-300">Login</Button>
       </form>
     </Form>
     <div className = "flex justify-center items-center pt-6 pb-2 gap-2">
@@ -138,7 +140,7 @@ const FormComponent = () => {
         <SigninButton type="google" />
         <SigninButton type="github" />
     </div>
-    <div className="text-xs" >Don&apos;t have an Account? <Link href={'/auth/register'} className="font-semibold" >Register now</Link></div>
+    <div className="text-xs" >Don&apos;t have an Account? <Link href={'/auth/agentregister'} className="font-semibold" >Register now</Link></div>
     </div>
     </div>
     </div>

@@ -59,11 +59,11 @@ const page = () => {
       <div className='w-[65%] py-10  flex flex-col justify-start items-start'>
         <div className='text-2xl font-semibold' >Actions</div>
         <div className='w-[100%] flex justify-start items-start pt-6 gap-6 flex-wrap'>
-          <Link href={'/account/orders'} className='border-2  border-black rounded-2xl text-lg px-6 py-1 flex items-center gap-2 font-semibold hover:bg-purple-300 cursor-pointer' ><Package size={21}/> Your Orders</Link>
+          <Link href={'/account/orders'} className='border-[1px] border-gray-400 rounded-lg text-lg px-6 py-1 flex items-center gap-2 font-semibold hover:bg-purple-300 cursor-pointer' ><Package size={21}/> Your Orders</Link>
           
            <Dialog>
            <DialogTrigger asChild>
-           <div className='border-2  border-black rounded-2xl text-lg px-6 py-1 flex items-center gap-2 font-semibold hover:bg-yellow-200 cursor-pointer' ><UserRound size={21} /> Edit Profile</div>
+           <div className='border-[1px]  border-gray-400 rounded-lg text-lg px-6 py-1 flex items-center gap-2 font-semibold hover:bg-yellow-200 cursor-pointer' ><UserRound size={21} /> Edit Profile</div>
            </DialogTrigger>
            <DialogContent className="sm:max-w-[425px]">
              <DialogHeader>
@@ -107,7 +107,7 @@ const page = () => {
            </DialogContent>
          </Dialog>
           <AlertDialog>
-  <AlertDialogTrigger><div className='border-2  border-black rounded-2xl text-lg px-6 py-1 flex items-center gap-2 font-semibold hover:bg-red-300 cursor-pointer ' ><Trash2 size={21} /> Delete Account</div></AlertDialogTrigger>
+  <AlertDialogTrigger><div className='border-[1px]  border-gray-400 rounded-lg text-lg px-6 py-1 flex items-center gap-2 font-semibold hover:bg-red-300 cursor-pointer ' ><Trash2 size={21} /> Delete Account</div></AlertDialogTrigger>
   <AlertDialogContent>
     <AlertDialogHeader>
       <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>
@@ -125,7 +125,7 @@ const page = () => {
 
           <Dialog>
       <DialogTrigger asChild>
-      <div className='border-2  border-black rounded-2xl text-lg px-6 py-1 flex items-center gap-2 font-semibold hover:bg-orange-300 cursor-pointer' ><RotateCcw size={21} /> Reset Password</div>
+      <div className='border-[1px]  border-gray-400 rounded-lg text-lg px-6 py-1 flex items-center gap-2 font-semibold hover:bg-orange-300 cursor-pointer' ><RotateCcw size={21} /> Reset Password</div>
       </DialogTrigger>
       <DialogContent className="sm:max-w-[425px]">
         <DialogHeader>
