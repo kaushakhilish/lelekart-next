@@ -27,7 +27,7 @@ const CarouselBestOf = ({category,img,name,description,price}:{category:string,i
     >
       <CarouselContent className="w-full">
         {Array.from({ length: 10 }).map((_, index) => (
-          <CarouselItem key={index} className="md:basis-1/3 lg:basis-1/4">
+          <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
             <div className="">
             <ProductCard img={img} name={name} description={description} price={price} />
             </div>
